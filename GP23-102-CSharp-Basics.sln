@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2CodeExecution", "P2CodeEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3PrintingOutput", "P3PrintingOutput\P3PrintingOutput.csproj", "{65BF63AD-5204-4339-9B52-2900BB490D76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4Comments", "P4Comments\P4Comments.csproj", "{6A87AB71-C3DB-44F3-A698-E65B764F886B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{65BF63AD-5204-4339-9B52-2900BB490D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65BF63AD-5204-4339-9B52-2900BB490D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65BF63AD-5204-4339-9B52-2900BB490D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A87AB71-C3DB-44F3-A698-E65B764F886B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A87AB71-C3DB-44F3-A698-E65B764F886B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A87AB71-C3DB-44F3-A698-E65B764F886B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A87AB71-C3DB-44F3-A698-E65B764F886B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
