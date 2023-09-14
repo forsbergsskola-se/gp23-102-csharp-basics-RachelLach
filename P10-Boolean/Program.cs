@@ -14,3 +14,5 @@ WriteLine($"you are a child:{ischild}");
 WriteLine($"you are a teenager:{isTeenager}");
 WriteLine($"You are an adult:{isAdult}");
 
+
+

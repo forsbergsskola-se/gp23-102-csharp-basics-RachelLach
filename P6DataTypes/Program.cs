@@ -6,3 +6,4 @@ bool isAwesome = true;
 Console.WriteLine (isAwesome); 
 byte hexByte = 0xa7;
 Console.WriteLine (hexByte);
+
