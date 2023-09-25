@@ -89,17 +89,14 @@ Console.WriteLine("Give me a number of seconds");
 
 seconds = Convert.ToInt32(Console.ReadLine());
 double d = Convert.ToDouble(seconds);
-float totalDays = (float) seconds / (24 * 3500);
+float totalDays = (float) seconds / (24 * 3600);
 
-int days = seconds / (24 * 3600);
-seconds = seconds % (24 * 3600);
+int minutesToSeconds = 60;
+int hoursToSeconds = 60*minutesToSeconds;
+int daysToSeconds = 24*minutesToSeconds;
 
-int hours = seconds / 3600;
-seconds = seconds % 3600;
-
-minutes = seconds / 60;
-seconds = seconds % 60; 
-
+int days = seconds / daysToSeconds;
+int hours = seconds / hoursToSeconds;
 Console.WriteLine($"seconds: {seconds}");
 Console.WriteLine($"minutes: {minutes}");
 Console.WriteLine($"hours: {hours}");
